@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,300&display=swap');
+
+
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins' , san
+
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 100;
+
+
+}
+    .logo{
+        font-size:25px;
+        color:black;
+        text-decoration:none;
+        font-weight:700px;
+
+
+    }
+    .navbar a {
+        font-size:18px;
+        color:white;
+        text-decoration:none;
+        font-weight:500px;
+        margin-left:35px;
+
+
+    }
+    .navbar a:hover,
+    .navbar a:active{
+        color:skyblue;
+
+    }
+
+    .home{
+        position: relative;
+        height:100vh;
+        background: linear-gradient(-90deg, black 65%,white 35%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10%;
+
+    }
+    .home-image{
+        width: 400px;
+        height: 400px;
+        background-color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 15px;
+        border: 25px solid white
+    }
+    .home-image img{
+        position: relative;
+        max-width:150px;
+        border-radius: 150px;
+    }
+    .home-content{
+        max-width:600px;
+        color:white;
+        text-align: right;
+    }
+    .home-content h1{
+        font-size: 55px;
+        line-height: 1.2;
+        margin-right: 0;
+    }
+    .home-content h3{
+        font-size: 40px;
+        color: transparent;
+        -webkit-text-stroke: .5px rgb(111, 207, 245);
+
+    }
+    .home-content p{
+        font-size :16px;
+        margin-top: 20px;
+
+    }
+    .home-sci{
+        margin: 25px 0 40px;
+    }
+    .home-sci a {
+
+         display: infline-flex;
+         justify-content:center;
+         align-items: center;
+         width: 40px;
+         height: 40px;
+         background: transparent;
+         border: 2px solid white;
+         border-radius: 50%;
+         color:skyblue;
+         text-decoration:none;
+         margin-left: 12px;
+         transition: .5s;
+
+    }
+    .home-sci a:hover{
+        background-color: skyblue;
+        color: black;
+
+    }
+  
+    .button {
+        padding: 12px 35px;
+        background:grey;
+        border-radius: 40px;
+        font-size: 16px;
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 400px;
+        letter-spacing: 1px;
+        transition: .5s;
+        box-shadow: 0,0,10px;
+        font-weight: 500;
+    }
+    .button:hover{
+
+    
+        background-color: white;
+        color: black;
+      
+    }
+    .About-heading{
+        font-family: 'Poppins', sans-serif;
+        margin-top:40px;
+        width: 600px;
+        background-color: rgb(15, 15, 15);
+        color: white;
+    }
+    .About-content{
+        font-family: 'Poppins', sans-serif;
+   
+
+        color: black;
+        padding-top:50px ;
+       width: 600px;
+        background-color:  rgb(226, 221, 221);
+      
+      
+        
+    }
+    .Education-heading{
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+         background-color: black;
+        color: white;
+        margin-top: 50px;
+
+
+ 
+
+    }
+    .Education-content{
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+        background-color: rgb(226, 221, 221); 
+        width: -500px;
+      
+      
+    }
+    .Contact-heading{
+        font-family: 'Poppins', sans-serif;
+        margin-top: 0%;
+       
+        width: 600px;
+        background-color: rgb(15, 15, 15);
+        color: white;
+        margin-top: 50px;
+    }
+    .contact-details{
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        width: 600px;
+        background-color:  rgb(226, 221, 221); 
+      
+        
+    }
+    @media (max-width: 767px) {
+        .container {
+            padding: 10px;
+        }
+    }
